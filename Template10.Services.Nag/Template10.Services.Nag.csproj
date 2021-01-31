@@ -1,0 +1,16 @@
+<Project Sdk="MSBuild.Sdk.Extras">
+
+  <PropertyGroup>
+    <TargetFramework>uap10.0.19041</TargetFramework>
+    <MinimumRequiredVersion>uap10.0.17763</MinimumRequiredVersion>
+    <LangVersion>9.0</LangVersion>
+    <Title>Template10 nag service</Title>
+    <UseWindowsDesktopSdk>true</UseWindowsDesktopSdk>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Template10.Services.Dialog\Template10.Services.Dialog.csproj" />
+    <ProjectReference Include="..\Template10.Services.File\Template10.Services.File.csproj" />
+  </ItemGroup>
+
+</Project>
