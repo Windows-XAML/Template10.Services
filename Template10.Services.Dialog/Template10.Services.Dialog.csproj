@@ -1,11 +1,11 @@
 <Project Sdk="MSBuild.Sdk.Extras">
 
   <PropertyGroup>
-    <TargetFramework>uap10.0.19041</TargetFramework>
-    <MinimumRequiredVersion>uap10.0.17763</MinimumRequiredVersion>
+    <TargetFramework>uap10.0.17763</TargetFramework>
     <LangVersion>9.0</LangVersion>
     <Title>Template10 dialog service</Title>
     <UseWindowsDesktopSdk>true</UseWindowsDesktopSdk>
+    <Platforms>x86;x64;ARM;ARM64</Platforms>
   </PropertyGroup>
 
 </Project>
